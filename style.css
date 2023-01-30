@@ -2,13 +2,15 @@
 	padding: 0;
 	margin: 0;
 	    font-family: 'Jost', sans-serif;
-	box-sizing: content-box;
+	
+	margin: auto;
 }
 body{
 	
 	overflow-x: hidden;
 	text-align: center;
 }
+
 .nav{
 	z-index: 100;
 	text-align: center;
@@ -185,11 +187,21 @@ body{
 
 }
 .use2 p {
-	width: 400px;
+	max-width: 400px;
 	margin: 0 30px;
 }
 .use2 img {
-	width: 400px;
+	max-width: 400px;
+}
+@media (max-width: 600px){
+	.use2 p {
+	max-width: 300px;
+	margin: auto;
+}
+.use2 img {
+	max-width: 300px;
+	margin: auto;
+}
 }
 
 .use div {
@@ -381,4 +393,10 @@ body{
 
 }
 }
+@media (max-width: 600px){
+	*{
+		margin: auto;
+	}
+}
+
 
