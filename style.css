@@ -8,7 +8,7 @@
 body{
 	
 	overflow-x: hidden;
-	text-align: center;
+	
 }
 
 .nav{
@@ -125,7 +125,7 @@ body{
 	.cont{
 		flex-direction: column-reverse;
 		justify-content: center;
-		
+		text-align: center;
 	}
 	.cont img{
 		margin: 20px auto;
@@ -164,6 +164,7 @@ body{
 	color: rgb(55,81,126);
 	margin-top: 150px;
 	text-align: center;
+	position: relative;
 }
 #pa{
 	margin-top: 0;
@@ -172,6 +173,13 @@ body{
 	display: inline-block;
 	width: 35px;
 	border: 1px solid rgb(221,221,221);
+}
+.use div{
+	width: 115px;
+	position: absolute;
+	left: calc(50% - 57.5px);
+	display: table;
+	margin: auto;
 }
 
 .use #sec{
@@ -218,6 +226,7 @@ body{
 	border-radius: 7px;
 	border: 2px solid rgb(255,165,0);
 	transition-duration: 0.5s;
+	background-color: transparent;
 }
 #i2:hover{
 	background-color: rgb(255,165,0);
