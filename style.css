@@ -391,7 +391,7 @@ body{
 @media (max-width: 400px){
 	.end{
 	width: 100%;
-	text-align: center;
+	text-align: center !important;
 	margin: 100px auto;
 }
 
