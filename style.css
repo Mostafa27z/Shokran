@@ -2,8 +2,13 @@
 	padding: 0;
 	margin: 0;
 	    font-family: 'Jost', sans-serif;
+	box-sizing: content-box;
 }
-
+body{
+	
+	overflow-x: hidden;
+	text-align: center;
+}
 .nav{
 	z-index: 100;
 	text-align: center;
@@ -66,6 +71,11 @@
 	}
 
 }
+.container{
+	width: 80%;
+	margin: auto;
+
+}
 .cont{
 	display: flex;
 	flex-wrap: wrap;
@@ -102,11 +112,26 @@
 }
 @media(max-width: 840px){
 	.cont{
-		width: 90vw;
+		width: 90%;
+
 	}
 	.home{
 		margin-bottom: 35px;
 	}
+}
+@media(max-width: 720px){
+	.cont{
+		flex-direction: column-reverse;
+		justify-content: center;
+		
+	}
+	.cont img{
+		margin: 20px auto;
+	}
+	.cont img{
+	width: 200px;
+}
+	
 }
 .logos {
 	background-color: rgb(243,245,250);
@@ -215,7 +240,7 @@
 	justify-content: center;
 	flex-wrap: wrap;
 	grid-gap: 15px;
-	width: 80vw;
+	width: 80%;
 	margin: 50px auto;
 }
 .icons .icon{
@@ -267,7 +292,7 @@
 	margin-top: 50px;
 }
 .contact img{
-	width: 500px;
+	max-width: 500px;
 }
 .contact form{
 	border-top: 2px solid rgb(255,165,0);
@@ -292,6 +317,18 @@
 	font-size: 16px;
 	cursor: pointer;
 	margin-top: 20px;
+}
+@media (max-width: 600px){
+	.contact img{
+	width: 80%;
+	
+}
+.contact form textarea{
+	width: 80%;
+}
+.contact form {
+	max-width: 80%;
+}
 }
 .end{
 	width: 70%;
@@ -319,9 +356,11 @@
 .footer{
 	display: flex;
 	flex-wrap: wrap;
+	width: auto;
 	justify-content: space-around;
 	background-color: rgb(55,81,126);
 	color: white;
+	box-sizing: border-box;
 	padding: 60px 30px 100px 30px;
 	
 }
@@ -335,8 +374,11 @@
 .footer a:hover{
 	text-decoration: underline;
 }
-body{
-	width: 99vw;
-	overflow-x: hidden;
-	text-align: center;
+@media (max-width: 390px){
+	.footer{
+	width: 100vw;
+	box-sizing: content-box;
+
 }
+}
+
