@@ -247,6 +247,13 @@ body{
 	
 	margin: 50px 20px;
 }
+@media (max-width: 450px){
+	.who p{
+	width: 80%;
+	
+	margin: 50px 20px;
+}
+}
 .who p i{
 	color: rgb(255,165,0);
 }
@@ -313,7 +320,7 @@ body{
 	margin-top: 50px;
 }
 .contact img{
-	max-width: 500px;
+	width: 500px;
 }
 .contact form{
 	border-top: 2px solid rgb(255,165,0);
@@ -339,17 +346,30 @@ body{
 	cursor: pointer;
 	margin-top: 20px;
 }
+.contact form textarea{
+	width: 80%;
+	height: 150px;
+}
 @media (max-width: 600px){
 	.contact img{
 	width: 80%;
 	
 }
-.contact form textarea{
+
+.contact form {
 	width: 80%;
 }
-.contact form {
-	max-width: 80%;
+
 }
+@media (max-width: 450px){
+
+.contact form textarea{
+	width: 250px;
+}
+.contact form {
+	width: auto;
+}
+
 }
 .end{
 	width: 70%;
@@ -373,6 +393,7 @@ body{
 	width: 100%;
 	margin: 100px auto;
 }
+
 }
 .footer{
 	display: flex;
@@ -396,10 +417,8 @@ body{
 	text-decoration: underline;
 }
 @media (max-width: 390px){
-	.footer{
-	width: 100vw;
-	box-sizing: content-box;
-
+.footer p{
+	width: 80%;
 }
 }
 @media (max-width: 600px){
