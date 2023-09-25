@@ -3,7 +3,7 @@
 	margin: 0;
 	    font-family: 'Jost', sans-serif;
 	
-	margin: auto;
+	
 }
 body{
 	
@@ -11,7 +11,7 @@ body{
 	
 }
 
-.nav{
+/* .nav{
 	z-index: 100;
 	text-align: center;
 	display: flex;
@@ -44,37 +44,29 @@ body{
 	margin: 10px;
 	border-radius: 10px;
 	display: none;
-}
-.nav img {
+} */
+nav img {
 	width: 50px;
 
 }
-
+nav *{
+	align-items: center;
+	gap:15px
+}
 #i{
-	padding: 8px 20px;
+	padding: 5px 15px;
 	border-radius: 20px;
 	border: 2px solid rgb(255,165,0);
+	
+	width: 130px;
 
 }
 #i i{
 	color: rgb(255,165,0);
 }
-@media(max-width: 990px){
-	.nav{
-		justify-content: space-around;
-		padding:20px 0px;
-
-	}
-	.nav ul{
-		display: none;
-	}
-	.nav span hr{
-		display: block;
-	}
-
-}
+ 
 .container{
-	width: 80%;
+	/* width: 80%; */
 	margin: auto;
 
 }

@@ -5,14 +5,57 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&amp;family=Jost:wght@400;700&amp;display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	
 </head>
 <body>
-	<div class="nav">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#"><img src="shokran.png"></a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Using</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">About</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">CATEGORIES</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Brands</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">OFFERS</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Contact</a>
+			  </li>
+			  <li class="nav-item " id="i">
+				<a class="nav-link" href="#">Get App <i class="fa-brands fa-google-play"></i></a>
+			  </li>
+
+			  
+			</ul>
+			
+		  </div>
+		</div>
+	  </nav>
+	<!-- <div class="nav">
 		<img src="shokran.png">
-		<span><hr><hr><hr></span>
-		<ul>
+		<span id="clickbox"><hr><hr><hr></span>
+		<ul id="nv">
 			<li>Home</li>
 			<li>Using</li>
 			<li>About</li>
@@ -23,7 +66,7 @@
 			<li id="i">Get App <i class="fa-brands fa-google-play"></i></li>
 		</ul>
 	</div>
-	<br>
+	<br> -->
 	<div class="cont">
 		<div class="home">
 			<h1>
@@ -198,5 +241,15 @@
 			Re-designed by <a href="https://github.com/Mostafa27z">Mostafa Osama</a>
 		</p>
 	</div>
+	<script src="./css/bootstrap.min.js">
+		// window.addEventListener('click', function(e){   
+		// 	if (document.getElementById('clickbox').contains(e.target)){
+		// 		document.getElementById('nv').style.display="grid";
+		// 	} else{
+		// 		document.getElementById('nv').style.display="none";
+				
+		// 	}
+		// });
+	</script>
 </body>
 </html>
